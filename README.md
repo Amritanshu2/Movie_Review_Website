@@ -1,17 +1,7 @@
 Movie Review Website
-Movie Review Website is an engaging platform designed for movie enthusiasts to explore, review, and manage film content. Developed using a combination of React for the frontend and Express.js with MongoDB for the backend, this platform provides a seamless experience for both regular users and administrators.
+Movie Review Website is an engaging platform designed for movie enthusiasts to explore, review, and manage film content. Developed with React for the frontend and Express.js with MongoDB for the backend, this platform provides a seamless experience for both regular users and administrators.
 
-Table of Contents
-Introduction
-System Architecture
-Front-end
-Back-end
-Database
-API Design
-Installation
-Configuration
-Usage
-Architecture Diagram
+
 Introduction
 The Movie Review Website aims to deliver a comprehensive platform for users to interact with movie-related content. Regular users can browse movies, read and write reviews, and manage their preferences. Administrators have powerful tools for content management and analytics, making it easier to curate the platform's offerings.
 
@@ -24,7 +14,7 @@ The front-end of the Movie Review Website is built with React, ensuring a dynami
 Front End Pages
 For Users:
 
-Homepage: Features an introduction to the platform and links to movies, reviews, and user details.
+Homepage: Introduction to the platform with links to movies, reviews, and user details.
 Movie List: Displays a list of available movies with detailed information and ratings.
 Movie Reviews: Allows users to read and submit reviews for individual movies.
 Search Movies: Provides search functionality to find movies based on various criteria.
@@ -47,7 +37,7 @@ User Authentication: Handles login, registration, and password management with J
 Content Management: Supports CRUD operations for movies, actors, and trailers.
 Notification System: Real-time notifications for new content and user activities.
 Advanced Search: Implements searching and filtering functionality for movies and actors.
-Error Handling: Provides comprehensive error handling and response messages.
+Error Handling: Comprehensive error handling and response messages.
 Back-end Frameworks, Libraries, and Tools:
 Node.js
 Express.js
@@ -62,11 +52,13 @@ API Design
 The RESTful API is built with Node.js and Express.js, supporting standard HTTP methods (GET, POST, PUT, DELETE) and utilizing JSON for data exchange.
 
 Installation
+To set up the Movie Review Website locally, follow these steps:
+
 Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/Movie_Review_Website.git
+git clone https://github.com/Amritanshu2/Movie_Review_Website.git
 cd Movie_Review_Website
 Frontend Setup:
 
@@ -95,7 +87,7 @@ npm install
 Configuration
 Set up a MongoDB database and obtain the connection URL.
 Create a .env file in the backend directory with the following variables:
-makefile
+plaintext
 Copy code
 MONGODB_URI=<your-mongodb-connection-url>
 JWT_SECRET=<your-jwt-secret-key>
@@ -118,8 +110,4 @@ npm start
 Access the application in your browser at http://localhost:3000.
 
 Architecture Diagram
-A high-level architecture diagram illustrates the interactions between the front-end, back-end, and database components of the system.
-
-
-Project Goals
-The Movie Review Website aims to provide an engaging platform for movie lovers to interact with film content, while offering administrators powerful tools for managing and curating the platform. The project combines modern web technologies to create a user-friendly experience with extensive management capabilities.
+A high-level architecture diagram illustrating the interactions between the front-end, back-end, and database components will be added here.
